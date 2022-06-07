@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col-md-4 sidenav">
                 <div class="login-main-text">
-                    <img src="../material/search-icon.png" alt="icon"/>
+                    <img src="../../material/search-icon.png" alt="icon"/>
                     <h2>Welcome to FAP</h2>
                     <p>Simple - Easy - Productive</p>
                 </div>
