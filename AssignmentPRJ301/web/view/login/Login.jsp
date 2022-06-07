@@ -11,29 +11,33 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-        <link href="LoginStyle.css" rel="stylesheet" type="text/css"/>
+        <link href="Login.css" rel="stylesheet" type="text/css"/>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
         <title>JSP Page</title>
     </head>
     <body>
-        <div class="container">
-            <div class="left">
-                <h2>Welcome to FAP</h2>
-                <p>FPT University Academic Portal</p>
+        <div class="row">
+            <div class="col-md-4 sidenav">
+                <div class="login-main-text">
+                    <img src="../material/search-icon.png" alt="icon"/>
+                    <h2>Welcome to FAP</h2>
+                    <p>Simple - Easy - Productive</p>
+                </div>
             </div>
-            <div class="right">
-                <div class="col-md-6 col-sm-12">
-                    <div>
+            <div class="col-md-8 main">
+                <h3>Login to continue</h3>
+                <div class="col-sm-9">
+                    <div class="login-form ">
                         <form>
                             <div class="form-group">
-                                <label>Email</label>
+                                <label style="color: #ffc629">Email</label>
                                 <input type="text" class="form-control" placeholder="Email">
                             </div>
                             <div class="form-group">
-                                <label>Password</label>
+                                <label style="color: #ffc629">Password</label>
                                 <input type="password" class="form-control" placeholder="Password">
                             </div>
-                            <button type="submit" class="click-button">Login</button>
+                            <button type="submit" class="btn btn-black">Login</button>
                         </form>
                     </div>
                 </div>

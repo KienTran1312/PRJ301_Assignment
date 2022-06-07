@@ -1,0 +1,47 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 7, 2022, 1:47:47 PM
+    Author     : Tkien
+*/
+
+.btn-black{
+    background-color: rgba(0,107,104,255);
+    color: white;
+    padding-right: 180px;
+    padding-left: 180px;
+    margin-left: 200px
+}
+
+.sidenav h2{
+    padding-top: 200px;
+    text-align: center;
+}
+
+
+.sidenav p{
+    text-align: center;
+}
+
+.main{
+    background-color:#f2cf43;
+    background-image: linear-gradient(315deg, #f2cf43 0%, #19a186 74%);
+    
+    /*    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);*/
+
+    height: 550px;
+
+}
+
+.main h3{
+    font-family: inherit;
+    text-align: center;
+    padding-top: 150px;
+    color: #ffc629;
+}
+
+.form-group{
+    padding-left: 200px;
+}
