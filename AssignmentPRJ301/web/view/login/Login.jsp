@@ -16,25 +16,25 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <div class="row">
+        <div class="row ">
             <div class="col-md-4 sidenav">
                 <div class="login-main-text">
-                    <img src="../../material/search-icon.png" alt="icon"/>
-                    <h2>Welcome to FAP</h2>
-                    <p>Simple - Easy - Productive</p>
+                    <img src="../../material/cat-fish.png" alt="icon"/>
+                    <h2 style="color: #ffc13b">Welcome to FAP</h2>
+                    <p style="color: #ffc13b">Simple - Easy - Productive</p>
                 </div>
             </div>
             <div class="col-md-8 main">
-                <h3>Login to continue</h3>
+                <h3>Sign In</h3>
                 <div class="col-sm-9">
                     <div class="login-form ">
                         <form>
                             <div class="form-group">
-                                <label style="color: #ffc629">Email</label>
+                                <label style="color: #ff6e40">Email</label>
                                 <input type="text" class="form-control" placeholder="Email">
                             </div>
                             <div class="form-group">
-                                <label style="color: #ffc629">Password</label>
+                                <label style="color: #ff6e40">Password</label>
                                 <input type="password" class="form-control" placeholder="Password">
                             </div>
                             <button type="submit" class="btn btn-black">Login</button>
