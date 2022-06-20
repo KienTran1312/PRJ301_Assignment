@@ -3,7 +3,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
 */
 /* 
-    Created on : Jun 9, 2022, 10:52:26 AM
+    Created on : Jun 20, 2022, 3:21:05 PM
     Author     : Tkien
 */
 
@@ -57,7 +57,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 }
 
 .navigator nav{
-    margin-left: 910px;
     margin-top: -73px
 }
 
@@ -76,10 +75,37 @@ html{
 body{
     min-height: 100%;
     background-color: #f5f0e1;
+
 }
 
-/*.container{
-    background-color: #f5f0e1;
-    position: absolute;
-    width: 800px;
-}*/
+.container ul{
+    margin-top: 70px;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 250px;
+    padding-right: 250px;
+
+}
+.decor-li li{
+    padding-bottom: 15px;
+    
+}
+
+.decor-a a {
+    display: block;
+    color: white;
+    padding: 12px 5px;
+    text-decoration: none;
+    background-color: #1e3d59;
+    border-radius: 15px;
+    
+}
+
+
+.decor-a a:hover {
+    background-color: #ffc13b;
+    color: #f5f0e1;
+}
+
+
+

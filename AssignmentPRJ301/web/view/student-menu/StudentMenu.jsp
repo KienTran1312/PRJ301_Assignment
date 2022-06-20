@@ -1,6 +1,6 @@
 <%-- 
-    Document   : LectureMenu
-    Created on : Jun 8, 2022, 8:36:25 PM
+    Document   : StudentMenu
+    Created on : Jun 20, 2022, 9:05:09 PM
     Author     : Tkien
 --%>
 
@@ -10,12 +10,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
-        <!--        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>-->
-        <link href="lectStyle.css" rel="stylesheet" type="text/css"/>
-        <title>MyFapv2</title>
+        <link href="../lecture-menu/lectStyle.css" rel="stylesheet" type="text/css"/>
         <link rel="icon" href="../../material/iconweb.jpg" type="image/x-icon">
+        <title>MyFapv2</title>
     </head>
-
     <header class="heading">
         <h3> Hello somebody !</h3>
         <p>FPT University Academic Portal</p>
@@ -38,8 +36,8 @@
     <body>
         <div class="container">
             <ul class="decor-li">
-                <li class="decor-a"><a href="#">Add Grade</a></li>
-                <li class="decor-a"><a href="#">Edit Grade</a></li>
+                <li class="decor-a"><a href="#">Mark Report</a></li>
+                <li class="decor-a"><a href="#">Academic Transcript</a></li>
 <!--                <li class="decor-a"><a href="#">tags</a></li>
                 <li class="decor-a"><a href="#">categories</a></li>
                 <li class="decor-a"><a href="#">about</a></li>-->

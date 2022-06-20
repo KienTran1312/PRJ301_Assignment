@@ -1,0 +1,119 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 20, 2022, 9:24:36 PM
+    Author     : Tkien
+*/
+
+.heading{
+    width: 100%;
+    height: 140px;
+    background-color: #1e3d59;
+}
+
+.heading h3{
+    text-align: center;
+    color: #ffc13b;
+    padding-top: 30px;
+}
+
+.nav-item::after{
+    content:'';
+    display:block;
+    width:0px;
+    height:4px;
+    background:#ffc13b;
+    transition: 0.2s;
+    margin-top: -10px;
+}
+
+.nav-item:hover::after{
+    width:100%;
+}
+
+
+.nav-link{
+    padding:15px 5px;
+    transition:0.2s;
+}
+
+.navbar-nav .nav-link {
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.navbar-nav .active > .nav-link{
+
+    width:100%;
+    height:51px;
+    border-bottom: .25rem solid transparent;
+    border-bottom-color: #ffc13b;
+
+}
+
+.navigator nav{
+    margin-top: -5px;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    background-color: #f5f0e1;
+
+}
+
+h4{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.tables{
+    height: 500px;
+    
+}
+
+.left{
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.left table thead{
+    background-color: #1e3d59;
+}
+
+th{
+    color: white;
+    text-align: center;
+    border-right: solid 2px #1e3d59;
+}
+
+tr{
+    border-top: solid 2px #1e3d59;
+}
+
+td{
+    border-right: solid 2px #1e3d59;
+}
+
+.tit-left{
+    width: 550px;
+}
+
+.seasons{
+    width: 150px;
+}
+
+.right{
+    padding-top: 65px;
+    padding-right: 40px;
+}
+
+.right table thead{
+    background-color: #1e3d59;
+}
