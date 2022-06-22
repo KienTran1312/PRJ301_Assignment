@@ -10,7 +10,6 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
-        <!--        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>-->
         <link href="lectStyle.css" rel="stylesheet" type="text/css"/>
         <title>MyFapv2</title>
         <link rel="icon" href="../../material/iconweb.jpg" type="image/x-icon">

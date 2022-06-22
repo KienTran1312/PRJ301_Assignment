@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
-        <link href="StuStyle.css" rel="stylesheet" type="text/css"/>
+        <link href="menuStyle.css" rel="stylesheet" type="text/css"/>
 
         <title>Mark Report</title>
     </head>
@@ -70,7 +70,7 @@
             </div>
             <div class="col-md-5 mark-table">
                 <div class="right">
-                    <table border="1">
+                    <table>
                         <thead>
                             <tr>
                                 <th>GRADE CATEGORY</th>
@@ -95,6 +95,8 @@
 
             </div>
         </div>
+        
+        
 
     </body>
 </html>
