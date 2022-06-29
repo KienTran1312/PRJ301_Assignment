@@ -38,17 +38,10 @@
             <div id="table-group">
                 <table>
                     <tr>
-                        <td id="subject">
-                            <select class="group-subject">
-                                <option value="1">Subject1</option>
-                                <option value="2">Subject2</option>
-                                <option value="3">Subject3</option>
-                            </select></td>
                         <td>
                             <select class="group-lists">
-                                <option value="1">SE1631</option>
-                                <option value="2">SE1632</option>
-                                <option value="3">SE1633</option>
+                                <option value="1">SE1631-PRJ301</option>
+                                <option value="2">SE1632-JPD123</option>
                             </select>
                         </td>
                         <td id="click">
@@ -61,38 +54,26 @@
                 <table border="1">
                     <thead>
                         <tr>
-                            <th>Category</th>
-                            <th>Edit</th>
+                            <th>Student Name</th>
+                            <th>Grade Category</th>
+                            <th>Grade Category</th>
+                            <th>Grade Category</th>
+                            <th>Grade Category</th>
+                            <th>Grade Category</th>
+                            <th>Grade Category</th>
+                            
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>progress test 1</td>
-                            <td><a href="">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td>progress test 2</td>
-                            <td><a href="">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td>ws1</td>
-                            <td><a href="">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td>ws2</td>
-                            <td><a href="">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td>assignment</td>
-                            <td><a href="">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td>pe</td>
-                            <td><a href="">Edit</a></td>
-                        </tr>
-                        <tr>
-                            <td>fe</td>
-                            <td><a href="">Edit</a></td>
+                            <td>name</td>
+                            <td>grade</td>
+                            <td>grade</td>
+                            <td>grade</td>
+                            <td>grade</td>
+                            <td>grade</td>
+                            <td>grade</td>
+                            
                         </tr>
                     </tbody>
                 </table>
