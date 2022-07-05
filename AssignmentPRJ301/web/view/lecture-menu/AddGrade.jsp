@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
-        <link href="LectFunctStyle.css" rel="stylesheet" type="text/css"/>
+        <link href="functions-style.css" rel="stylesheet" type="text/css"/>
         <title>Add Grade</title>
         <link rel="icon" href="../../material/iconweb.jpg" type="image/x-icon">
     </head>
@@ -50,8 +50,9 @@
                     </tr>
                 </table>
             </div>
-            <div>
-                <table border="1">
+            
+            <div id="mark-edit">
+                <table>
                     <thead>
                         <tr>
                             <th>Student Name</th>
@@ -77,7 +78,7 @@
                         </tr>
                     </tbody>
                 </table>
-
+                    <button class="butt-save" type="submit">Save</button>
             </div>
             
             

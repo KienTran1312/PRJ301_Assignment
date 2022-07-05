@@ -10,8 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
-        <link href="menuStyle.css" rel="stylesheet" type="text/css"/>
-
+        <link href="student-function.css" rel="stylesheet" type="text/css"/>
         <title>Mark Report</title>
     </head>
 
@@ -35,32 +34,20 @@
     </header>
     <body>
         <div class="row">
-            <div class="col-md-7 tables">
+            <div class="col-md-6 tables">
                 <h4 style="color: #1e3d59">Grade report for student "Name" + (StudentId)</h4>
                 <div class="left">
                     <table>
                         <thead>
                             <tr>
-                                <th class="seasons">TERM</th>
-                                <th class="tit-left">COURSE</th>
+                                <th class="seasons">Subject</th>
+                                <th class="tit-left"></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Summer2021</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>Fall2021</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>Spring2022</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>Summer2022</td>
-                                <td></td>
+                                <td>PRJ301</td>
+                                <td><input class="show-mark" type="button" value="Show"/></td>
                             </tr>
                         </tbody>
                     </table>
@@ -68,7 +55,7 @@
 
 
             </div>
-            <div class="col-md-5 mark-table">
+            <div class="col-md-6 mark-table">
                 <div class="right">
                     <table>
                         <thead>
@@ -87,6 +74,17 @@
                                 <td>trọng số</td>
                                 <td>tổng</td>
                                 <td>cmt</td>
+                            </tr>
+                            <tr>
+                                <td><h5>Total</h5></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><h5>Status</h5></td>
+                                <td> 
+                                    <p hidden id="pass">Pass</p> 
+                                    <p id="not-pass">Not Pass</p>
+                                </td>
                             </tr>
                         </tbody>
                     </table>

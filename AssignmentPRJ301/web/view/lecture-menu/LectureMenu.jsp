@@ -38,10 +38,7 @@
         <div class="container">
             <ul class="decor-li">
                 <li class="decor-a"><a href="#">Add Grade</a></li>
-                <li class="decor-a"><a href="#">Edit Grade</a></li>
-<!--                <li class="decor-a"><a href="#">tags</a></li>
-                <li class="decor-a"><a href="#">categories</a></li>
-                <li class="decor-a"><a href="#">about</a></li>-->
+                <li class="decor-a"><a href="#">Status Management</a></li>
             </ul>
         </div>
 

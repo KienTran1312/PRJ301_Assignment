@@ -37,10 +37,6 @@
         <div class="container">
             <ul class="decor-li">
                 <li class="decor-a"><a href="#">Mark Report</a></li>
-                <li class="decor-a"><a href="#">Academic Transcript</a></li>
-<!--                <li class="decor-a"><a href="#">tags</a></li>
-                <li class="decor-a"><a href="#">categories</a></li>
-                <li class="decor-a"><a href="#">about</a></li>-->
             </ul>
         </div>
 
