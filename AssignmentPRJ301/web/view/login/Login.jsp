@@ -13,7 +13,7 @@
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <link href="Login.css" rel="stylesheet" type="text/css"/>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-        <link rel="icon" href="../../material/iconweb.jpg" type="image/x-icon">
+        <link rel="icon" href="../material/iconweb.jpg" type="image/x-icon">
         <title>MyFapv2</title>
     </head>
     <body>
@@ -29,17 +29,19 @@
                 <h3>Sign In</h3>
                 <div class="col-sm-9">
                     <div class="login-form ">
-                        <form>
+                        
+                        <form action="Login" method="POST">
                             <div class="form-group">
                                 <label style="color: #ff6e40">Email</label>
-                                <input type="text" class="form-control" placeholder="Email">
+                                <input type="text" class="form-control" placeholder="Email" name="user">
                             </div>
                             <div class="form-group">
                                 <label style="color: #ff6e40">Password</label>
-                                <input type="password" class="form-control" placeholder="Password">
+                                <input type="password" class="form-control" placeholder="Password" name="pass">
                             </div>
                             <button type="submit" class="btn btn-black">Login</button>
                         </form>
+                        
                     </div>
                 </div>
             </div>

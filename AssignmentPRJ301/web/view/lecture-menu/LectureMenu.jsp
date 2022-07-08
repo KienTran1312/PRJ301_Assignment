@@ -39,6 +39,8 @@
             <ul class="decor-li">
                 <li class="decor-a"><a href="#">Add Grade</a></li>
                 <li class="decor-a"><a href="#">Status Management</a></li>
+                <li class="decor-a"><a href="#">Mark Report</a></li>
+                
             </ul>
         </div>
 
