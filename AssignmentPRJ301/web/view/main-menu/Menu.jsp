@@ -4,19 +4,23 @@
     Author     : Tkien
 --%>
 
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
-        <link href="lectStyle.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/main-menu/lectStyle.css" rel="stylesheet" type="text/css"/>
         <title>MyFapv2</title>
         <link rel="icon" href="../../material/iconweb.jpg" type="image/x-icon">
     </head>
 
     <header class="heading">
-        <h3> Hello somebody !</h3>
+        <c:if test="${sessionScope.account ne null}">
+            <h3> Hello ${sessionScope.account.displayName} !</h3>
+        </c:if>
         <p>FPT University Academic Portal</p>
         <div class="navigator">
             <nav class="navbar navbar-expand-lg">
@@ -37,10 +41,13 @@
     <body>
         <div class="container">
             <ul class="decor-li">
-                <li class="decor-a"><a href="#">Add Grade</a></li>
-                <li class="decor-a"><a href="#">Status Management</a></li>
-                <li class="decor-a"><a href="#">Mark Report</a></li>
-                
+                <c:if test="${sessionScope.account.lecture == 1}">
+                    <li class="decor-a"><a href="../lecture-menu/AddGrade.jsp">Add Grade</a></li>
+                    <li class="decor-a"><a href="#">Status Management</a></li>
+                </c:if>
+
+                <li class="decor-a"><a href="../student-menu/MarkReport.jsp">Mark Report</a></li>
+
             </ul>
         </div>
 

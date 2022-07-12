@@ -12,7 +12,9 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 import model.Account;
+import org.apache.tomcat.jni.SSLContext;
 
 /**
  *
@@ -29,7 +31,8 @@ public class AuthenticationController extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
     throws ServletException, IOException {
-        
+                request.getRequestDispatcher("view/login/Login.jsp").forward(request, response);
+
     } 
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
@@ -62,8 +65,11 @@ public class AuthenticationController extends HttpServlet {
         Account account = db.getByUsernamePassword(user, pass);
         if(account!=null)
         {
-            request.getSession().setAttribute("account", account);
-            response.getWriter().println("hello "+ account.getDisplayName());
+//            request.getSession().setAttribute("account", account);
+            HttpSession session = request.getSession();
+            session.setAttribute("account", account);
+            response.sendRedirect("view/main-menu/Menu.jsp");
+           
         }
         else
         {

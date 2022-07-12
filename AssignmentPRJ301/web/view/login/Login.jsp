@@ -11,16 +11,16 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-        <link href="Login.css" rel="stylesheet" type="text/css"/>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-        <link rel="icon" href="../material/iconweb.jpg" type="image/x-icon">
+        <link rel="icon" href="material/iconweb.jpg" type="image/x-icon">
         <title>MyFapv2</title>
+        <link href="css/login/Login.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div class="row ">
             <div class="col-md-4 sidenav">
                 <div class="login-main-text">
-                    <img src="../../material/cat-fish.png" alt="icon"/>
+                    <img src="material/cat-fish.png" alt="icon"/>
                     <h2 style="color: #ffc13b">Welcome to FAP</h2>
                     <p style="color: #ffc13b">Simple - Easy - Productive</p>
                 </div>

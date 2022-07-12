@@ -14,7 +14,22 @@ public class Account {
     private String username;
     private String password;
     private String displayName;
+    private int student;
+    private int lecture;
     private ArrayList<Role> roles = new ArrayList<>();
+
+    public Account(String username, String password, String displayName, int student, int lecture) {
+        this.username = username;
+        this.password = password;
+        this.displayName = displayName;
+        this.student = student;
+        this.lecture = lecture;
+    }
+
+    public Account() {
+    }
+    
+    
 
     public ArrayList<Role> getRoles() {
         return roles;
@@ -47,5 +62,23 @@ public class Account {
     public void setDisplayName(String displayName) {
         this.displayName = displayName;
     }
+
+    public int getStudent() {
+        return student;
+    }
+
+    public void setStudent(int student) {
+        this.student = student;
+    }
+
+    public int getLecture() {
+        return lecture;
+    }
+
+    public void setLecture(int lecture) {
+        this.lecture = lecture;
+    }
+
+   
     
 }
