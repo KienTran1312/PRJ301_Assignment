@@ -65,15 +65,16 @@ public class AuthenticationController extends HttpServlet {
         Account account = db.getByUsernamePassword(user, pass);
         if(account!=null)
         {
-//            request.getSession().setAttribute("account", account);
             HttpSession session = request.getSession();
             session.setAttribute("account", account);
             response.sendRedirect("view/main-menu/Menu.jsp");
-           
         }
         else
         {
-            response.getWriter().println("login failed");
+            request.setAttribute("mess", "Wrong user or password");
+            request.getRequestDispatcher("view/login/Login.jsp").forward(request, response);
+            
+//            response.getWriter().println("login failed");
         }
     }
 

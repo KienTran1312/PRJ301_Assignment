@@ -4,6 +4,7 @@
     Author     : Tkien
 --%>
 
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -40,6 +41,7 @@
                                 <input type="password" class="form-control" placeholder="Password" name="pass">
                             </div>
                             <button type="submit" class="btn btn-black">Login</button>
+                            <div style="text-align: center" ><p style="color: red">${mess}</p></div>
                         </form>
                         
                     </div>

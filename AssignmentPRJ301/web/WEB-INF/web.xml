@@ -2,19 +2,23 @@
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
         <servlet-name>Search</servlet-name>
-        <servlet-class>lect.controller.Search</servlet-class>
+        <servlet-class>lect.controller.AddGrade</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AuthenticationController</servlet-name>
         <servlet-class>login.controller.AuthenticationController</servlet-class>
     </servlet>
-    <servlet-mapping>
-        <servlet-name>Search</servlet-name>
-        <url-pattern>/lect/search</url-pattern>
-    </servlet-mapping>
+    <servlet>
+        <servlet-name>AddGrade</servlet-name>
+        <servlet-class>lect.controller.AddGrade</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>AuthenticationController</servlet-name>
         <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddGrade</servlet-name>
+        <url-pattern>/lect/AddGrade</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

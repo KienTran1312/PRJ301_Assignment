@@ -44,10 +44,11 @@
                 <c:if test="${sessionScope.account.lecture == 1}">
                     <li class="decor-a"><a href="../lecture-menu/AddGrade.jsp">Add Grade</a></li>
                     <li class="decor-a"><a href="#">Status Management</a></li>
-                </c:if>
+                    </c:if>
 
-                <li class="decor-a"><a href="../student-menu/MarkReport.jsp">Mark Report</a></li>
-
+                <c:if test="${sessionScope.account.student == 1}">
+                    <li class="decor-a"><a href="../student-menu/MarkReport.jsp">Mark Report</a></li>
+                    </c:if>
             </ul>
         </div>
 
