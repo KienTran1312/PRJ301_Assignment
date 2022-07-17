@@ -16,6 +16,8 @@ public class Exam {
     private Assessment assesment;
     private Date date;
     private float score;
+    
+    
 
     public int getId() {
         return id;

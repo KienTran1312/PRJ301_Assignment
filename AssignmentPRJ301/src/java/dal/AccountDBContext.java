@@ -19,7 +19,7 @@ import model.Role;
  *
  * @author Tkien
  */
-public class AccountDBContext extends DBContext<Account> {
+public class AccountDBContext extends DBContext {
 
     public Account getByUsernamePassword(String user, String pass) {
         try {
@@ -94,33 +94,5 @@ public class AccountDBContext extends DBContext<Account> {
 //            return null;
     }
 
-    @Override
-    public ArrayList<Account> list() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    @Override
-    public Account get(Account entity
-    ) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-    @Override
-    public void insert(Account entity
-    ) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-    @Override
-    public void update(Account entity
-    ) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-    @Override
-    public void delete(Account entity
-    ) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-}

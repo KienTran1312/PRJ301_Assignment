@@ -13,5 +13,23 @@ import java.util.ArrayList;
 public class Group {
     private String groupId;
     private ArrayList<Student> studentList = new ArrayList<>();
+
+    public String getGroupId() {
+        return groupId;
+    }
+
+    public void setGroupId(String groupId) {
+        this.groupId = groupId;
+    }
+
+    public ArrayList<Student> getStudentList() {
+        return studentList;
+    }
+
+    public void setStudentList(ArrayList<Student> studentList) {
+        this.studentList = studentList;
+    }
+    
+    
     
 }

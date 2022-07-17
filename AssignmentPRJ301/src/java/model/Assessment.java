@@ -14,11 +14,22 @@ public class Assessment {
     private int id;
     private String name;
     private float weight;
-    private ArrayList<Exam> exams = new ArrayList<>();
+    private Exam exam;
+//    private ArrayList<Exam> exams = new ArrayList<>();
 
     public int getId() {
         return id;
     }
+
+    public Exam getExam() {
+        return exam;
+    }
+
+    public void setExam(Exam exam) {
+        this.exam = exam;
+    }
+    
+    
 
     public void setId(int id) {
         this.id = id;
@@ -40,12 +51,12 @@ public class Assessment {
         this.weight = weight;
     }
 
-    public ArrayList<Exam> getExams() {
-        return exams;
-    }
-
-    public void setExams(ArrayList<Exam> exams) {
-        this.exams = exams;
-    }
+//    public ArrayList<Exam> getExams() {
+//        return exams;
+//    }
+//
+//    public void setExams(ArrayList<Exam> exams) {
+//        this.exams = exams;
+//    }
     
 }

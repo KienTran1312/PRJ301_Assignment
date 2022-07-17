@@ -12,7 +12,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
-        <link href="../../css/main-menu/lectStyle.css" rel="stylesheet" type="text/css"/>
+        <link href="css/main-menu/lectStyle.css" rel="stylesheet" type="text/css"/>
         <title>MyFapv2</title>
         <link rel="icon" href="../../material/iconweb.jpg" type="image/x-icon">
     </head>
@@ -42,13 +42,16 @@
         <div class="container">
             <ul class="decor-li">
                 <c:if test="${sessionScope.account.lecture == 1}">
+                    
                     <li class="decor-a"><a href="../lecture-menu/AddGrade.jsp">Add Grade</a></li>
                     <li class="decor-a"><a href="#">Status Management</a></li>
-                    </c:if>
+                    
+                 </c:if>
 
                 <c:if test="${sessionScope.account.student == 1}">
-                    <li class="decor-a"><a href="../student-menu/MarkReport.jsp">Mark Report</a></li>
-                    </c:if>
+                    <li class="decor-a"><a href="http://localhost:8080/AssignmentPRJ301/student/markreport">Mark Report</a></li>
+                                     </c:if>
+                    <h1>${name}</h1>
             </ul>
         </div>
 
